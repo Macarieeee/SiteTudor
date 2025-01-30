@@ -5,6 +5,61 @@
 :root{
   --cta-color-6: #ff7062!important;
   --basket-ball-orange: #ff7062!important;
+  --cta-color-1: #ff7062!important;
+}
+
+.icon.is-small {
+  font-size: 0.7em;
+}
+
+.logo-nav{
+  height: 80px;
+  width: 120px;
+}
+
+.button-for-open-menu {
+  z-index: 10;
+  grid-column-gap: .6em;
+  grid-row-gap: .6em;
+  color: var(--white);
+  cursor: pointer;
+  flex-flow: row;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  height: 4em;
+  padding: .5em 1.5em;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  top:1.7vh
+}
+
+.nav-secondary-menu {
+  flex-flow: row;
+  justify-content: center!important;
+  align-items: center;
+  display: flex
+;
+}
+
+.form-layout {
+  grid-column-gap: 0em!important;
+  grid-row-gap: 0em!important;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex
+;
+}
+
+.icon.is-large.services{
+  margin-top: 7px;
+  margin-right: 7px;
 }
 
 .home-one-work-section {
@@ -3925,8 +3980,8 @@ html {
     flex: none;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     display: flex;
     position: relative;
   }

@@ -17088,3 +17088,17 @@ html {
   .footer-layout{
     padding-bottom: 2em!important;
   }
+
+  .navbar{
+    position: fixed!important;
+    background-color: #211f33!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease!important;
+  }
+
+  .navbar.scrolled {
+    background-color: #211f33!important; /* Culoarea dorită la scroll */
+}

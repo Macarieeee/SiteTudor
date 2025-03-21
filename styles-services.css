@@ -249,3 +249,15 @@ html {
 .w-container{
   max-width: 100%!important;
 }
+
+.is-service-description-title{
+  font-size: 2rem!important;
+}
+
+.large-text{
+  font-size: 9vw!important;
+} 
+
+.sec-with-large-link{
+  background-image: url(bun2.png) center center no-repeat!important;
+}
